@@ -1,0 +1,27 @@
+.wrapper{
+    display: grid;
+    margin-top: 30px;
+    padding: 10px;
+    left: 50px;
+    position: absolute;
+}
+ .form__input,
+ .form__button{
+    padding: 20px;
+    margin: 5px auto;
+    place-items: center;
+    grid-template-columns: 1fr;
+    width: 500px;
+    font-size: 15px;
+    color: gray;
+    background: rgb(245, 175, 241);
+    border-radius: 15px;
+    font-weight: 900;
+ }
+ .output{
+    text-align: center;
+    font-weight: 900;
+    color: gray;
+    margin-top: 20px;
+    font-size: 20px;
+ }
